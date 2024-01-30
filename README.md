@@ -3,7 +3,16 @@
 ## Using package
 
 ```sh
-npm i --save 
+npm i --save @nextjsvietnam/nodejs-typescript-boilerplate
+```
+
+```ts
+import JSBase, { JSBASE_VERSION } from "@nextjsvietnam/nodejs-typescript-boilerplate/src";
+
+console.log(JSBase, JSBASE_VERSION);
+
+console.log(new JSBase().helloWorld('ABC'));
+
 ```
 
 
@@ -21,4 +30,6 @@ npm install --save-dev @babel/preset-env @babel/preset-typescript @types/jest @t
 
 ```sh
 npm init --scope=@nextjsvietnam
+npm adduser
+npm publish --access public
 ```

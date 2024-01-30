@@ -1,6 +1,6 @@
 {
   "name": "@nextjsvietnam/nodejs-typescript-boilerplate",
-  "version": "1.24.1",
+  "version": "1.24.11",
   "description": "nodejs typescript boilerplate 2024",
   "main": "dist/index.js",
   "scripts": {

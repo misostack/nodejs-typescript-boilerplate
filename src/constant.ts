@@ -1,1 +1,1 @@
-export const JSBASE_VERSION = '1.24.1';
+export const JSBASE_VERSION = '1.24.11';
