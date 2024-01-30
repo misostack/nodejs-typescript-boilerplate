@@ -11,7 +11,8 @@
     "test": "jest",
     "lint": "eslint -c .eslintrc.json --ext .ts src",
     "lint-fix": "eslint -c .eslintrc.json --ext .ts src --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepublish": "npm run format && npm run build"
   },
   "repository": {
     "type": "git",
